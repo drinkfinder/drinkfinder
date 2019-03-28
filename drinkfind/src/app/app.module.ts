@@ -8,6 +8,7 @@ import { DrinksComponent } from './drinks/drinks.component';
 import { SavedIngredientsComponent } from './saved-ingredients/saved-ingredients.component';
 import { SavedDrinksComponent } from './saved-drinks/saved-drinks.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AddDrinkComponent } from './add-drink/add-drink.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './app-routing.module';
     IngredientsComponent,
     DrinksComponent,
     SavedIngredientsComponent,
-    SavedDrinksComponent
+    SavedDrinksComponent,
+    AddDrinkComponent
   ],
   imports: [
     BrowserModule,
