@@ -7,6 +7,7 @@ import { IngredientsComponent } from './ingredients/ingredients.component';
 import { DrinksComponent } from './drinks/drinks.component';
 import { SavedIngredientsComponent } from './saved-ingredients/saved-ingredients.component';
 import { SavedDrinksComponent } from './saved-drinks/saved-drinks.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SavedDrinksComponent } from './saved-drinks/saved-drinks.component';
     SavedDrinksComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
