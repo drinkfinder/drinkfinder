@@ -12072,23 +12072,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Heath\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/matthewkane/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\AMIS3610\\drinkfinder\\api\\Drinkfinder.Api.csproj",
+      "projectUniqueName": "/Users/matthewkane/Desktop/AMIS3610/drinkfinder/api/Drinkfinder.Api.csproj",
       "projectName": "Drinkfinder.Api",
-      "projectPath": "c:\\AMIS3610\\drinkfinder\\api\\Drinkfinder.Api.csproj",
-      "packagesPath": "C:\\Users\\Heath\\.nuget\\packages\\",
-      "outputPath": "c:\\AMIS3610\\drinkfinder\\api\\obj\\",
+      "projectPath": "/Users/matthewkane/Desktop/AMIS3610/drinkfinder/api/Drinkfinder.Api.csproj",
+      "packagesPath": "/Users/matthewkane/.nuget/packages/",
+      "outputPath": "/Users/matthewkane/Desktop/AMIS3610/drinkfinder/api/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Heath\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/matthewkane/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
