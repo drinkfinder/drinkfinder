@@ -25,7 +25,8 @@ namespace Drinkfinder.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<DrinkContext>(options => options.UseInMemoryDatabase("Drinks"));
+            services.AddDbContext<DrinksContext>(options => options.UseInMemoryDatabase("Drinks"));
+            services.AddDbContext<IngredientsContext>(options => options.UseInMemoryDatabase("Ingredients"));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
