@@ -1,32 +1,20 @@
 using System;
 using System.Collections.Generic;
 using drinkfinder.Controllers;
+using drinkfinder.Models;
 
 namespace drinkfinder.Models{
 
     public class Drink
     {
-        public List<Drink> drinkList { get; set; }
-        public int currentPosition = 0;
-        
+        internal string drinkInstructions;
+
         public int drinkId { get; set; }
-        public string drinkName { get; set; }
 
-        public string drinkInstructions { get; set; }
+        public string drinkName { get; set;}
 
-        public List<Ingredient> ingredientList { get; set;}
+        public string drinkInstruction { get; set; }
 
-
-        //need to add ingredient list as a parameter or a way to create ingredients from here
-        public void addDrink(string incomingName, string incomingInstruction ){
-            currentPosition = currentPosition + 1;
-            Drink newDrink = new Drink(){
-                drinkId = currentPosition,
-                drinkName = incomingName,
-                drinkInstructions = incomingInstruction
-            };
-            drinkList.Add(newDrink);
-            
-            }
+        public List<Ingredient> drinkIngredients { get; set; }
     }
 }
