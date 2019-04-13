@@ -12072,56 +12072,23 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\Codey\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
-=======
-<<<<<<< HEAD
-    "/Users/chrishumer/.nuget/packages/": {},
-=======
-    "/Users/matthewkane/.nuget/packages/": {},
->>>>>>> e6c4798470b995259381dcccc8245092586a0613
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
->>>>>>> 15a4c0e4c77e6fa4f0c3a78e963bc9c51dbb1a16
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "c:\\Users\\Codey\\Desktop\\Spring2019\\ACCMIS3610\\ACCMIS3610Projects\\drinkfinder\\api\\Drinkfinder.Api.csproj",
       "projectName": "Drinkfinder.Api",
       "projectPath": "c:\\Users\\Codey\\Desktop\\Spring2019\\ACCMIS3610\\ACCMIS3610Projects\\drinkfinder\\api\\Drinkfinder.Api.csproj",
       "packagesPath": "C:\\Users\\Codey\\.nuget\\packages\\",
       "outputPath": "c:\\Users\\Codey\\Desktop\\Spring2019\\ACCMIS3610\\ACCMIS3610Projects\\drinkfinder\\api\\obj\\",
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "/Users/chrishumer/Desktop/AMIS3610/drinkfinder/api/Drinkfinder.Api.csproj",
-      "projectName": "Drinkfinder.Api",
-      "projectPath": "/Users/chrishumer/Desktop/AMIS3610/drinkfinder/api/Drinkfinder.Api.csproj",
-      "packagesPath": "/Users/chrishumer/.nuget/packages/",
-      "outputPath": "/Users/chrishumer/Desktop/AMIS3610/drinkfinder/api/obj/",
-=======
-      "projectUniqueName": "/Users/matthewkane/Desktop/AMIS3610/drinkfinder/api/Drinkfinder.Api.csproj",
-      "projectName": "Drinkfinder.Api",
-      "projectPath": "/Users/matthewkane/Desktop/AMIS3610/drinkfinder/api/Drinkfinder.Api.csproj",
-      "packagesPath": "/Users/matthewkane/.nuget/packages/",
-      "outputPath": "/Users/matthewkane/Desktop/AMIS3610/drinkfinder/api/obj/",
->>>>>>> e6c4798470b995259381dcccc8245092586a0613
->>>>>>> 15a4c0e4c77e6fa4f0c3a78e963bc9c51dbb1a16
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\Codey\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-<<<<<<< HEAD
-        "/Users/chrishumer/.nuget/NuGet/NuGet.Config"
-=======
-        "/Users/matthewkane/.nuget/NuGet/NuGet.Config"
->>>>>>> e6c4798470b995259381dcccc8245092586a0613
->>>>>>> 15a4c0e4c77e6fa4f0c3a78e963bc9c51dbb1a16
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -12168,5 +12135,13 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file c:\\Users\\Codey\\Desktop\\Spring2019\\ACCMIS3610\\ACCMIS3610Projects\\drinkfinder\\api\\obj\\Drinkfinder.Api.csproj.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

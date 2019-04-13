@@ -1,13 +1,5 @@
 {
-<<<<<<< HEAD
   "ProjectFilePath": "c:\\Users\\Codey\\Desktop\\Spring2019\\ACCMIS3610\\ACCMIS3610Projects\\drinkfinder\\api\\Drinkfinder.Api.csproj",
-=======
-<<<<<<< HEAD
-  "ProjectFilePath": "/Users/chrishumer/Desktop/AMIS3610/drinkfinder/api/Drinkfinder.Api.csproj",
-=======
-  "ProjectFilePath": "/Users/matthewkane/Desktop/AMIS3610/drinkfinder/api/Drinkfinder.Api.csproj",
->>>>>>> e6c4798470b995259381dcccc8245092586a0613
->>>>>>> 15a4c0e4c77e6fa4f0c3a78e963bc9c51dbb1a16
   "TargetFramework": "netcoreapp2.2",
   "TagHelpers": [],
   "Configuration": {
