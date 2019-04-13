@@ -12,7 +12,7 @@ namespace drinkfinder.Api.Controllers
     public class DrinksController : ControllerBase{
 
         private readonly DrinkFinderContext db;
-
+    
         public DrinksController(DrinkFinderContext db)
         {
 
