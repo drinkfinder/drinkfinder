@@ -9,6 +9,7 @@ namespace drinkfinder.Models
         {}
 
         public DbSet<Drink> Drinks { get; set; }
+        public DbSet<Ingredient> Ingredients { get; set; }
     
     }
 }

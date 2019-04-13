@@ -14,6 +14,8 @@ import { DrinkDetailComponent }  from './drink-detail/drink-detail.component';
 import { DrinksComponent }      from './drinks/drinks.component';
 import { DrinkSearchComponent }  from './drink-search/drink-search.component';
 import { MessagesComponent }    from './messages/messages.component';
+import { IngredientsComponent } from './ingredients/ingredients.component';
+import { IngredientSearchComponent } from './ingredient-search/ingredient-search.component';
 
 @NgModule({
   imports: [
@@ -35,7 +37,9 @@ import { MessagesComponent }    from './messages/messages.component';
     DrinksComponent,
     DrinkDetailComponent,
     MessagesComponent,
-    DrinkSearchComponent
+    DrinkSearchComponent,
+    IngredientsComponent,
+    IngredientSearchComponent
   ],
   bootstrap: [ AppComponent ]
 })
